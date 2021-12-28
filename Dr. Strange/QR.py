@@ -1,7 +1,7 @@
 import cv2 as cv
 import numpy as np
 
-i=cv.imread('file.png')
+i=cv.imread('file.png') #for images in the .odt file
 
 t = i*256 - i.std()
 
